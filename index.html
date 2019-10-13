@@ -10,9 +10,10 @@
 		<link rel="stylesheet" href="./css/style.css">
 	</head>
 	<body>
+		<div class="container-fluid">
 		<div class="row">
-			<div class="col-2">
-				<div class=" side-bar col-2">
+			<div class="d-lg-block col-md-2">
+				<div id="side" class=" side-bar col-6 col-md-2">
 					<div class="social d-flex">
 						<p class="social-item"><i class="fab fa-facebook-f"></i></p>
 						<p class="social-item"><i class="fab fa-twitter"></i></p>
@@ -36,11 +37,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-10">
+			<div class="col-12 col-md-10">
 				<section class="header">
 					<div class="row">
-						<div class="col-9">
-							<div class="header ">
+						<div id="burg" class="col-2 d-md-none burg-icon">
+							<div class="burg-item"></div>
+							<div class="burg-item"></div>
+							<div class="burg-item"></div>
+						</div>
+						<div class="col-10 col-md-7 ">
+							<div class="header">
+
 								<a href="#" class="logo d-flex">
 									<div class="head-img">
 										<img src="./img/header1.png" alt="Logo">
@@ -52,7 +59,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="col-3">
+						<div class="d-block col-md-12 col-lg-5">
 							<div class="question">
 								<img src="./img/dialogue.png" alt="msg">
 								<span class="ask"><a href="#">Задать вопрос</a> производителю</span>
@@ -60,9 +67,9 @@
 						</div>
 					</div>
 				</section>
-				<section class="first">
+				<section class=" first">
 					<div class="row">
-						<div class="col-6 p-0 block-1">
+						<div class="col-12 p-0 block-1">
 							<div class="first-section ">
 								<p class="block-text">
 									Защита глаз<br> при интенсивных нагрузках
@@ -85,7 +92,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-6 p-0 block-2">
+						<div class="col-12 p-0 block-2">
 							<div class="first-section ">
 								<p class="block-text">
 									Урепление сосудов<br>глаз
@@ -110,7 +117,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-6 p-0 block-3">
+						<div class="col-12 p-0 block-3">
 							<div class="first-section ">
 								<p class="block-text">
 									Защита здорового зрения <br>на долгие годы
@@ -133,7 +140,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-6 p-0 block-4">
+						<div class="col-12 p-0 block-4">
 							<div class="first-section ">
 								<p class="block-text">
 									Снижение риска развития <br>возрастных изменений глаз
@@ -189,7 +196,7 @@
 								<div class="row">
 									<div class="col-1">
 									</div>
-									<div class="col-5">
+									<div class="col-12">
 										<h1 class="slider-text">
 											В чем причина<br>
 											ухудшения зрения?
@@ -204,9 +211,9 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-5">
+									<div class="col-12">
 										<div class="row">
-											<div class="col-10 p-0">
+											<div class="col-12 text-center">
 												<div class="eye-img">
 													<img src="./img/eye-slide.png" alt="">
 												</div>
@@ -219,45 +226,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-1">
-									</div>
-								</div>
-							</div>
-							<div class="carousel-item ">
-								<div class="row">
-									<div class="col-1">
-									</div>
-									<div class="col-5">
-										<h1 class="slider-text">
-											В чем причина<br>
-											ухудшения зрения?
-										</h1>
-										<div class="row">
-											<div class="col-12">
-												<div class="description">
-													<p class="description-text">
-														Любой свет, особенно интенсивный искусственный, повреждает глаза. Световые лучи, проходя сквозь глаз, фокусируются на сетчатке в области желтого пятна - особой области, которая отвечает за максимальную остроту зрения
-													</p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-5">
-										<div class="row">
-											<div class="col-10 p-0">
-												<div class="eye-img">
-													<img src="./img/eye-slide.png" alt="">
-												</div>
-												<div class="block-text">
-													<p class="text-item">
-														<b>Желтое пятно</b> (лат. macula lutea) — <br>место наибольшей остроты зрения<br>
-														в сетчатке глаза
-													</p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-1">
+									<div class="col-0">
 									</div>
 								</div>
 							</div>
@@ -265,7 +234,7 @@
 								<div class="row">
 									<div class="col-1">
 									</div>
-									<div class="col-5">
+									<div class="col-12">
 										<h1 class="slider-text">
 											В чем причина<br>
 											ухудшения зрения?
@@ -280,9 +249,9 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-5">
+									<div class="col-12">
 										<div class="row">
-											<div class="col-10 p-0">
+											<div class="col-12 text-center">
 												<div class="eye-img">
 													<img src="./img/eye-slide.png" alt="">
 												</div>
@@ -295,63 +264,101 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-1">
+									<div class="col-0">
 									</div>
 								</div>
 							</div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-1">
-                                    </div>
-                                    <div class="col-5">
-                                        <h1 class="slider-text">
-                                            В чем причина<br>
-                                            ухудшения зрения?
-                                        </h1>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <div class="description">
-                                                    <p class="description-text">
-                                                        Любой свет, особенно интенсивный искусственный, повреждает глаза. Световые лучи, проходя сквозь глаз, фокусируются на сетчатке в области желтого пятна - особой области, которая отвечает за максимальную остроту зрения
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-5">
-                                        <div class="row">
-                                            <div class="col-10 p-0">
-                                                <div class="eye-img">
-                                                    <img src="./img/eye-slide.png" alt="">
-                                                </div>
-                                                <div class="block-text">
-                                                    <p class="text-item">
-                                                        <b>Желтое пятно</b> (лат. macula lutea) — <br>место наибольшей остроты зрения<br>
-                                                        в сетчатке глаза
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-1">
-                                    </div>
-                                </div>
-                            </div>
+							<div class="carousel-item">
+								<div class="row">
+									<div class="col-1">
+									</div>
+									<div class="col-12">
+										<h1 class="slider-text">
+											В чем причина<br>
+											ухудшения зрения?
+										</h1>
+										<div class="row">
+											<div class="col-12">
+												<div class="description">
+													<p class="description-text">
+														Любой свет, особенно интенсивный искусственный, повреждает глаза. Световые лучи, проходя сквозь глаз, фокусируются на сетчатке в области желтого пятна - особой области, которая отвечает за максимальную остроту зрения
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="row">
+											<div class="col-12 text-center">
+												<div class="eye-img">
+													<img src="./img/eye-slide.png" alt="">
+												</div>
+												<div class="block-text">
+													<p class="text-item">
+														<b>Желтое пятно</b> (лат. macula lutea) — <br>место наибольшей остроты зрения<br>
+														в сетчатке глаза
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-0">
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="row">
+									<div class="col-1">
+									</div>
+									<div class="col-12">
+										<h1 class="slider-text">
+											В чем причина<br>
+											ухудшения зрения?
+										</h1>
+										<div class="row">
+											<div class="col-12">
+												<div class="description">
+													<p class="description-text">
+														Любой свет, особенно интенсивный искусственный, повреждает глаза. Световые лучи, проходя сквозь глаз, фокусируются на сетчатке в области желтого пятна - особой области, которая отвечает за максимальную остроту зрения
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="row">
+											<div class="col-12 text-center">
+												<div class="eye-img">
+													<img src="./img/eye-slide.png" alt="">
+												</div>
+												<div class="block-text">
+													<p class="text-item">
+														<b>Желтое пятно</b> (лат. macula lutea) — <br>место наибольшей остроты зрения<br>
+														в сетчатке глаза
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-0">
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
-				<section class="section-3 row">
+				<section class=" section-3 row">
 					<div class="col-12">
 						<h1 class="title">
 							Группы риска:
 						</h1>
 						<div class="row">
-							<div class="col-6 section-3-img">
+							<div class="d-none d-md-block col-md-6 section-3-img">
 								<div class="img-item">
 									<img src="./img/girl.png" alt="">
 								</div>
 							</div>
-							<div class="col-6">
+							<div class="col-12 col-md-6">
 								<div class="desc">
 									<h2 class="p-title">
 										Школьники и студенты
@@ -380,8 +387,8 @@
 						</div>
 					</div>
 				</section>
-				<section class="section-4 row">
-					<div class="col-6 p-0">
+				<section class=" section-4 row">
+					<div class="col-12 col-md-6 p-0">
 						<div class="online-test">
 							<div class="text">
 								<h1 class="test-title">
@@ -404,7 +411,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 p-0">
+					<div class="col-12 col-md-6 p-0">
 						<div class="more-buy">
 							<div class="text">
 								<h1 class="test-title">
@@ -422,7 +429,7 @@
 						</div>
 					</div>
 					<div class="col-12">
-						<div class="warrning">
+						<div class="d-none d-md-block warrning">
 							<h1 class="warrning-text">ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. ПЕРЕД ПРИМЕНЕНИЕМ ОЗНАКОМЬТЕСЬ
 								С ИНСТРУКЦИЕЙ И ПРОКОНСУЛЬТИРУЙТЕСЬ СО СПЕЦИАЛИСТОМ
 							</h1>
@@ -430,19 +437,19 @@
 					</div>
 				</section>
 				<section class="footer row">
-					<div class="col-3">
+					<div class="col-12 col-md-3">
 						<div class="logo-footer">
 							<img src="./img/header2.png" alt="">
 						</div>
 					</div>
-					<div class="col-6">
+					<div class="col-12 col-md-6">
 						<div class="adress">
 							<p class="text-muted">ООО «ВАЛЕАНТ», 115162, г. Москва, ул. Шаболовка, д. 31, стр. 5
 								Тел./Факс: +7 495 510-2879  www.valeant.com
 							</p>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-12 col-md-3">
 						<div class="itsoft-logo">
 							<img src="./img/itsoft-logo.png" alt="">
 							<div class="dev-info">
@@ -454,9 +461,15 @@
 				</section>
 			</div>
 		</div>
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	</div>
+
+		<script
+		  src="https://code.jquery.com/jquery-3.4.1.js"
+		  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		  crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-		<script src="https://kit.fontawesome.com/95156a983f.js" crossorigin="anonymous"></script>
+		<script src="./js/index.js" ></script>
+
 	</body>
 </html>
